@@ -1,0 +1,58 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+/* css variable */
+
+:root{
+    --heading-color:#131313;
+    --menu-color:#424242;
+    --desc-color:#727272;
+
+    --primary-color:#FF900E;
+
+    --background-color:rgba(255, 144, 14, 0.1);
+
+    --h1-fs:64px;
+    --h2-fs:45px;
+    --h3-fs:20px;
+
+    --p-fs:16px;
+
+    --footer-fs:20px;
+}
+
+
+/* Common style */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+.section-header{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: var(--heading-color);
+}
+.section-desc{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--desc-color);
+}
+.primary-btn{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #ffffff;
+    border: 0;
+    border-radius: 8px;
+    padding: 20px 25px;
+    background-color: var(--primary-color);
+}
